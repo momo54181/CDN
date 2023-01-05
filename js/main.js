@@ -67,7 +67,7 @@ window.addEventListener('load', function () {
 
     //延迟加载音乐播放器
     let element = document.createElement("script");
-    element.src = "../js/music.js";
+    element.src = "https://cdn1.tianli0.top/gh/momo54181/CDN@imsyy/js/music.js";
     document.body.appendChild(element);
 
     //中文字体缓加载-此处写入字体源文件
@@ -75,7 +75,7 @@ window.addEventListener('load', function () {
     //由于压缩过后的中文字体仍旧过大，可转移至对象存储或 CDN 加载
     const font = new FontFace(
         "MiSans",
-        "url(" + "./font/MiSans-Regular.woff2" + ")"
+        "url(" + "https://jsd.cdn.zzko.cn/gh/momo54181/CDN@imsyy/font/MiSans-Regular.woff2" + ")"
     );
     document.fonts.add(font);
 
@@ -89,12 +89,12 @@ setTimeout(function () {
 new_element=document.createElement("link");
 new_element.setAttribute("rel","stylesheet");
 new_element.setAttribute("type","text/css");
-new_element.setAttribute("href","https://cdn1.tianli0.top/gh/momo54181/CDN@butterfly/css/lantern.css");
+new_element.setAttribute("href","https://cdn1.tianli0.top/gh/momo54181/CDN@imsyy/css/lantern.css");
 document.body.appendChild(new_element);
 
 new_element=document.createElement("script");
 new_element.setAttribute("type","text/javascript");
-new_element.setAttribute("src","https://cdn1.tianli0.top/gh/momo54181/CDN@butterfly/js/lantern.js");
+new_element.setAttribute("src","https://cdn1.tianli0.top/gh/momo54181/CDN@imsyy/js/lantern.js");
 document.body.appendChild(new_element);
 
 //获取一言
